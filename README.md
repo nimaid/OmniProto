@@ -1,7 +1,7 @@
 Advanced protoboard layout with 1.27mm pitch for smd parts
 ==========================================================
 
-| <img src="https://github.com/electroniceel/protoboard/raw/master/photos/sample1.jpg" width=350 alt="Sample 1"> | <img src="https://github.com/electroniceel/protoboard/raw/master/photos/sample2.jpg" width=350 alt="Sample 2"> |
+| <img src="https://github.com/nimaid/protoboard/raw/master/photos/sample1.jpg" width=350 alt="Sample 1"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/sample2.jpg" width=350 alt="Sample 2"> |
 
 Main Features
 -------------
@@ -17,7 +17,7 @@ Main Features
 Supported Packages
 ------------------
 
-<img src="https://github.com/electroniceel/protoboard/raw/master/photos/packages.jpg" width=400 alt="Supported Packages">
+<img src="https://github.com/nimaid/protoboard/raw/master/photos/packages.jpg" width=400 alt="Supported Packages">
 
 These packages can be directly used without adapter:
 
@@ -51,7 +51,7 @@ So I made a variant with a near-solid GND plane on the bottom side.
 * A hole just soldered on the top is not automatically connected to the GND plane because of the 0.15mm space
 * Just put a blob of solder on the bottom to connect a hole to the GND plane
 
-| <img src="https://github.com/electroniceel/protoboard/raw/master/photos/gndplane.jpg" width=350 alt="GND plane"> | <img src="https://github.com/electroniceel/protoboard/raw/master/photos/gndplane-detail.jpg" width=350 alt="GND plane detail"> |
+| <img src="https://github.com/nimaid/protoboard/raw/master/photos/gndplane.jpg" width=350 alt="GND plane"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/gndplane-detail.jpg" width=350 alt="GND plane detail"> |
 
 
 How to get?
@@ -67,7 +67,7 @@ solder blobs on the surface creating shorts. Elecrow continued to manufacture th
 
 So I recommend to order the boards from [Elecrow](http://www.elecrow.com/referral-program/MjA0ODlqMnQ=/).
 
-Finished gerber zips ready for ordering can be found in the ["gerber" directory](https://github.com/electroniceel/protoboard/tree/master/gerber).
+Finished gerber zips ready for ordering can be found in the ["gerber" directory](https://github.com/nimaid/protoboard/tree/master/gerber).
 
 If you prefer another layout, see below.
 
@@ -81,7 +81,7 @@ Production options
 Making your own layout
 ----------------------
 
-* All neccessary KiCAD source files are provided in the ["kicad" directory](https://github.com/electroniceel/protoboard/tree/master/kicad)
+* All neccessary KiCAD source files are provided in the ["kicad" directory](https://github.com/nimaid/protoboard/tree/master/kicad)
 * Open the layout in pcbnew
 * Set the grid to 1.27mm
 * Take the base pattern and copy it as much as you like
@@ -91,6 +91,15 @@ For the variant with GND plane on the bottom:
 
 * Use the "-oneside" footprints on the top side
 * Use "tht-0.8-thin-bottom" on the bottom side
+
+Porting to your favorite CAD tool
+---------------------------------
+
+If you want to re-create the individual pad shapes in your preferred CAD software, you can use the dimensional drawings below to do so!
+
+All pads have a solder mask stop 0.2mm offset from their outlines.
+
+| <img src="https://github.com/nimaid/protoboard/raw/master/photos/measurements_mm_between.PNG" width=250 alt="'Between' Pad"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/measurements_mm_center.PNG" width=250 alt="'Center' Pad"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/measurements_mm_tht.PNG" width=250 alt="Through-Hole Pad"> |
 
 Soldering tips
 --------------
