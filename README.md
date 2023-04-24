@@ -97,7 +97,7 @@ Porting to your favorite CAD tool
 
 If you want to re-create the individual pad shapes in your preferred CAD software, you can use the dimensional drawings below to do so!
 
-All pads have a solder mask stop 0.2mm offset from their outlines.
+All dimensions are in millimeters (mm). All pads have a solder mask stop 0.2mm offset from their outlines.
 
 | <img src="https://github.com/nimaid/protoboard/raw/master/photos/measurements_mm_between.PNG" width=250 alt="'Between' Pad"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/measurements_mm_center.PNG" width=250 alt="'Center' Pad"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/measurements_mm_tht.PNG" width=250 alt="Through-Hole Pad"> |
 
