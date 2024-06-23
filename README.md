@@ -3,9 +3,9 @@
 
 | <img src="https://github.com/nimaid/protoboard/raw/master/photos/sample1.jpg" width=350 alt="Sample 1"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/sample2.jpg" width=350 alt="Sample 2"> |
 
-| <img src="https://github.com/nimaid/protoboard/raw/master/photos/AVR HV Mezzanine Solder Top.png" width=350 alt="Sample 3"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/Buttons Mugshot.png" width=350 alt="Sample 4"> |
+| <img src="https://github.com/nimaid/protoboard/raw/master/photos/AVR HV Mezzanine Solder Bottom.png" width=350 alt="Sample 3"> | <img src="https://github.com/nimaid/protoboard/raw/master/photos/Buttons Mugshot.png" width=350 alt="Sample 4"> |
 
-<img src="https://github.com/nimaid/protoboard/raw/master/photos/Assortment.png" width=350 alt="Sample 5">
+<img src="https://github.com/nimaid/protoboard/raw/master/photos/Assortment.jpg" width=350 alt="Sample 5">
 
 [More Examples](https://nimaid.blogspot.com/2024/06/better-than-sliced-bread-omniproto.html)
 
